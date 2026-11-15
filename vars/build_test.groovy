@@ -5,3 +5,4 @@ def call(String projectFolder, String imageName){
   sh "docker build -t "${imageName}" ."
   //    sh "docker run -d -p 8000:8000 node-todo:latest"
   }
+}
